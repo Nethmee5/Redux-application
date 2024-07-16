@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import Store from "./store/Store";
 import { Provider } from "react-redux";
 import Counter from "./Counter";
+import ProductList from "./ProductList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Provider store={Store}>
       {/* <App /> */}
       <Counter/>
+      <ProductList/>
     </Provider>
   </React.StrictMode>
 );
